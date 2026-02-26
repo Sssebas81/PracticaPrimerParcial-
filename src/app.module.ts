@@ -5,6 +5,7 @@ import { AppController } from "./app.controller";
 import { AppService } from "./app.service";
 import { Ejercicio1Module } from './ejercicio1/ejercicio1.module';
 import { Ejercicio2Module } from './ejercicio2/ejercicio2.module';
+import { Ejercicio10Module } from './ejercicio10/ejercicio10.module';
 
 type SupportedDbTypes =
     | "mysql"
@@ -34,6 +35,7 @@ type SupportedDbTypes =
         }),
         Ejercicio1Module,
         Ejercicio2Module,
+        Ejercicio10Module,
     ],
     controllers: [AppController],
     providers: [AppService],
